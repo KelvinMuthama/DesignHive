@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import "./globals.css";
 
 export const metadata = {
-  title: "Design Haven",
+  title: "Design Hive",
   description: "Showcase and discover remarkable developer projects",
 };
 
