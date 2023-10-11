@@ -1,3 +1,7 @@
+import Image from "next/image";
+
+import { footerLinks } from "@/constants";
+
 type ColumnProps = {
   title: string;
   links: Array<string>;
@@ -11,7 +15,6 @@ const FooterColumn = ({ title, links }: ColumnProps) => (
 );
 
 const Footer = () => {
-  return <div>Footer</div>;
   return (
     <footer className="flexStart footer">
       <div className="flex flex-col gap-12">
